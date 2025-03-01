@@ -1,7 +1,7 @@
 import { IconBriefcase } from '@tabler/icons-react';
 import { IconBellRinging } from '@tabler/icons-react';
 import { IconSettings } from '@tabler/icons-react';
-import { Avatar, NavLink } from '@mantine/core';
+import { Avatar } from '@mantine/core';
 import { Indicator } from '@mantine/core';
 import NavLinks from './NavLinks';
 import avatar from "../assets/avatar.png";
