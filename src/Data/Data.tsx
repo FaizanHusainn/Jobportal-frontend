@@ -4,33 +4,33 @@ export const companies = ["Google", "Amazon", "Figma", "Netflix", "Meta", "Micro
 export const Category = [
 
     {
-        image : "",
-        title : "Software Engineer",
-        description : "A software engineer",
-        jobCount : "15+"
+        image : "../Category/Arts.png",
+        title : "Graphic Designer",
+        description : "UI/UX App design",
+        jobCount : "5+"
     },
     {
-        image : "",
-        title : "Software Engineer",
-        description : "A software engineer",
-        jobCount : "15+"
+        image : "../Category/Content Writing.png",
+        title : "Content Writer",
+        description : "Skilled writer for content.",
+        jobCount : "2+"
     },
     {
-        image : "",
-        title : "Software Engineer",
-        description : "A software engineer",
-        jobCount : "15+"
+        image : "../Category/Data Entry.png",
+        title : "Data Entry",
+        description : "Excel, SQL, Power BI",
+        jobCount : "4+"
     },
     {
-        image : "",
-        title : "Software Engineer",
-        description : "A software engineer",
-        jobCount : "15+"
+        image : "../Category/Finance.png",
+        title : "Finance",
+        description : "Finance manager",
+        jobCount : "1+"
     },
     {
-        image : "",
-        title : "Software Engineer",
-        description : "A software engineer",
-        jobCount : "15+"
+        image : "../Category/Human Resource.png",
+        title : "Human Resource",
+        description : "An active HR",
+        jobCount : "3+"
     }
 ];

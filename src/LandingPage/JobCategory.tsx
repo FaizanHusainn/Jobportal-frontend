@@ -19,8 +19,8 @@ const JobCategory = () => {
         className="mt-8"
       >
         {Category.map((category, index) => (
-          <Carousel.Slide key={index}>
-            <div className="flex flex-col items-center w-64">
+          <Carousel.Slide key={index} className='px-15'>
+            <div className="flex flex-col items-center w-60 border-1 rounded-xl p-4 border-[#ffd149] hover:cursor-pointer hover:shadow-[0_0_5px_2px_black] my-5 shadow-[#f99b07]">
               <div className="p-2 bg-[#ffe588] rounded-full">
                 <img className="h-8 w-8" src={category.image} alt={category.title} />
               </div>
@@ -31,7 +31,7 @@ const JobCategory = () => {
                 {category.description}
               </div>
               <div className="text-[#ffe588] text-lg">
-                {category.jobCount} new job posted
+                {category.jobCount} New Jobs
               </div>
             </div>
           </Carousel.Slide>
