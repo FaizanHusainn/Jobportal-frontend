@@ -34,3 +34,26 @@ export const Category = [
         jobCount : "3+"
     }
 ];
+
+export const TestinomialDetails = [
+    {
+        name: "Faizan Husain",
+        para : "This job portal made job search easy and quick. Recommended to all job seekers!",
+        photo : "../assets/avatar.png"
+    },
+    {
+        name: "Abhishek Kullu",
+        para : "Found my dream job within a week! The application process was smooth.",
+        photo : "../assets/avatar.png"
+    },
+    {
+        name: "Swapnil Pandey",
+        para : "I secured a job offer within days of applying. Exceptional user experience and support.",
+        photo : "../assets/avatar.png"
+    },
+    {
+        name: "Pavan Barnana",
+        para : "Highly efficient job portal with excellent resources. Helped me land a great position.",
+        photo : "../assets/avatar.png"
+    },
+]
