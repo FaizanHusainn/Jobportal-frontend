@@ -2,8 +2,8 @@ import { IconBriefcase } from "@tabler/icons-react";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="flex h-60 py-5">
+    <div className=" bg-[#2d2d2d] font-['poppins']">
+      <div className="flex h-60 py-5 ">
         {/* left section */}
         <div className="w-[40%] p-10">
           <IconBriefcase stroke={1.25} className="h-12 w-12" color="white" />

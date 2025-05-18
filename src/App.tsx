@@ -6,7 +6,10 @@ import { createTheme, MantineProvider } from "@mantine/core";
 import HomePage from "./Pages/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FindTalent from "./Pages/FindTalent"
+import FindJobs from "./Pages/FindJobs";
 import NotFound from "./Pages/NotFound";
+import Header from './Header/Header';
+import Footer from './Header/Footer';
 
 export default function App() {
   const theme = createTheme({
@@ -42,14 +45,17 @@ export default function App() {
   });
 
   return (
-    <MantineProvider theme={theme}>
+    <MantineProvider defaultColorScheme='dark' theme={theme}>
       <BrowserRouter>
+        <Header/>
         <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/find-jobs" element={<FindJobs />} />
         <Route path="/find-talent" element={<FindTalent />} />
+         {/* Always keep this wild card route at last */}
         <Route path="*" element={<NotFound />} />
         </Routes>
-      
+        <Footer />
       </BrowserRouter>
     </MantineProvider>
   );
